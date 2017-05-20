@@ -36,6 +36,7 @@
 		DE47B21E1ED103C1008470F0 /* MatrixZeroerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixZeroerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixZeroerTests.swift; sourceTree = "<group>"; };
 		DE47B2241ED103C1008470F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC575EE1ED109BC0033564A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		DE47B2011ED103C1008470F0 = {
 			isa = PBXGroup;
 			children = (
+				DEC575EE1ED109BC0033564A /* README.md */,
 				DE47B20C1ED103C1008470F0 /* MatrixZeroer */,
 				DE47B2211ED103C1008470F0 /* MatrixZeroerTests */,
 				DE47B20B1ED103C1008470F0 /* Products */,
@@ -78,11 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				DE47B20D1ED103C1008470F0 /* AppDelegate.swift */,
-				DE47B20F1ED103C1008470F0 /* ViewController.swift */,
-				DE47B2111ED103C1008470F0 /* Main.storyboard */,
 				DE47B2141ED103C1008470F0 /* Assets.xcassets */,
-				DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */,
 				DE47B2191ED103C1008470F0 /* Info.plist */,
+				DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */,
+				DE47B2111ED103C1008470F0 /* Main.storyboard */,
+				DE47B20F1ED103C1008470F0 /* ViewController.swift */,
 			);
 			path = MatrixZeroer;
 			sourceTree = "<group>";
@@ -414,6 +416,7 @@
 				DE47B2291ED103C1008470F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE47B22A1ED103C1008470F0 /* Build configuration list for PBXNativeTarget "MatrixZeroerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +425,7 @@
 				DE47B22C1ED103C1008470F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
