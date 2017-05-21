@@ -76,4 +76,18 @@ class MatrixZeroerTests: XCTestCase {
         XCTAssertEqual(actual.description, expectedDescription)
     }
 
+    func testGetFirstZeroesMultiplePerRowAndColumn() {
+
+        let rows = [[0, 1, 1, 0], [1, 0, 1, 0], [0, 1, 1, 0]]
+
+        // call method under test
+        let actual = MatrixZeroer.getFirstZeroes(rows: rows)
+
+        XCTAssertEqual(actual.count, 3)
+
+        let expectedDescription = "[(row: 0, column: 0, value: 0), (row: 1, column: 1, value: 0), (row: 2, column: 3, value: 0)]"
+
+        XCTAssertEqual(actual.description, expectedDescription)
+    }
+
 }
