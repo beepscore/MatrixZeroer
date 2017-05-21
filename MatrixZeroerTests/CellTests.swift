@@ -18,6 +18,12 @@ class CellTests: XCTestCase {
         XCTAssertEqual(cell.value, 8)
     }
 
+    func testCellDescription() {
+        let cell = Cell(row: 2, column: 5, value: 8)
+        let expectedDescription = "(row: 2, column: 5, value: 8)"
+        XCTAssertEqual(cell.description, expectedDescription)
+    }
+
     func testCellEqual() {
         let cell0 = Cell(row: 2, column: 5, value: 8)
         let cell1 = Cell(row: 2, column: 5, value: 8)
