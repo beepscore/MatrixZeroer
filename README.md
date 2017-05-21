@@ -14,8 +14,6 @@ If an element is 0, zero it's entire row and column.
 struct Cell with row, column, value.  
 first record all zeros.  
 
-Write methods zeroAllElementsInRow, zeroAllElementsInColumn.
-
 Improvement- when traversing a row, if hit first 0 element record it and can can skip the rest of the row.
 Improvement- when traversing a column, if hit first 0 element record it and can can skip the rest of the column.
 
