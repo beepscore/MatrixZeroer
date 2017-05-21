@@ -29,7 +29,7 @@ public class Cell: NSObject {
     /// computed property
     // http://stackoverflow.com/questions/30967182/overriding-description-method-in-nsobject-on-swift
     override public var description: String {
-        return "row: \(row), column: \(column), value: \(value)"
+        return "(row: \(row), column: \(column), value: \(value))"
     }
 
 }
