@@ -11,26 +11,26 @@ import XCTest
 
 class MatrixZeroerTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+    func testZeroAllElementsInRow() {
+
+        let row0 = [6, 8, 10]
+        let row1 = [5, -3, 4]
+        var rows = [row0, row1]
+
+        XCTAssertEqual(rows[0], [6, 8, 10])
+        XCTAssertEqual(rows[1], [5, -3, 4])
+        XCTAssertEqual(rows.description, "[[6, 8, 10], [5, -3, 4]]")
+
+        // call method under test
+        MatrixZeroer.zeroAllElementsInRow(rows: &rows, rowNumber: 0)
+
+        XCTAssertEqual(rows.description, "[[0, 0, 0], [5, -3, 4]]")
+
+        MatrixZeroer.zeroAllElementsInRow(rows: &rows, rowNumber: 1)
+
+        XCTAssertEqual(rows.description, "[[0, 0, 0], [0, 0, 0]]")
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+
     
 }

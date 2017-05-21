@@ -13,6 +13,7 @@
 		DE47B2151ED103C1008470F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE47B2141ED103C1008470F0 /* Assets.xcassets */; };
 		DE47B2181ED103C1008470F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */; };
 		DE47B2231ED103C1008470F0 /* MatrixZeroerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */; };
+		DEC575F01ED110270033564A /* MatrixZeroer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC575EF1ED110270033564A /* MatrixZeroer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixZeroerTests.swift; sourceTree = "<group>"; };
 		DE47B2241ED103C1008470F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEC575EE1ED109BC0033564A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		DEC575EF1ED110270033564A /* MatrixZeroer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixZeroer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				DE47B2191ED103C1008470F0 /* Info.plist */,
 				DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */,
 				DE47B2111ED103C1008470F0 /* Main.storyboard */,
+				DEC575EF1ED110270033564A /* MatrixZeroer.swift */,
 				DE47B20F1ED103C1008470F0 /* ViewController.swift */,
 			);
 			path = MatrixZeroer;
@@ -205,6 +208,7 @@
 			files = (
 				DE47B2101ED103C1008470F0 /* ViewController.swift in Sources */,
 				DE47B20E1ED103C1008470F0 /* AppDelegate.swift in Sources */,
+				DEC575F01ED110270033564A /* MatrixZeroer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
