@@ -13,6 +13,8 @@
 		DE47B2151ED103C1008470F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE47B2141ED103C1008470F0 /* Assets.xcassets */; };
 		DE47B2181ED103C1008470F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */; };
 		DE47B2231ED103C1008470F0 /* MatrixZeroerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */; };
+		DE73D4371ED1309A006FFE1D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73D4361ED1309A006FFE1D /* Cell.swift */; };
+		DE73D4391ED1341E006FFE1D /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73D4381ED1341E006FFE1D /* CellTests.swift */; };
 		DEC575F01ED110270033564A /* MatrixZeroer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC575EF1ED110270033564A /* MatrixZeroer.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		DE47B21E1ED103C1008470F0 /* MatrixZeroerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixZeroerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixZeroerTests.swift; sourceTree = "<group>"; };
 		DE47B2241ED103C1008470F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE73D4361ED1309A006FFE1D /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		DE73D4381ED1341E006FFE1D /* CellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
 		DEC575EE1ED109BC0033564A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DEC575EF1ED110270033564A /* MatrixZeroer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixZeroer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +87,7 @@
 			children = (
 				DE47B20D1ED103C1008470F0 /* AppDelegate.swift */,
 				DE47B2141ED103C1008470F0 /* Assets.xcassets */,
+				DE73D4361ED1309A006FFE1D /* Cell.swift */,
 				DE47B2191ED103C1008470F0 /* Info.plist */,
 				DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */,
 				DE47B2111ED103C1008470F0 /* Main.storyboard */,
@@ -97,6 +102,7 @@
 			children = (
 				DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */,
 				DE47B2241ED103C1008470F0 /* Info.plist */,
+				DE73D4381ED1341E006FFE1D /* CellTests.swift */,
 			);
 			path = MatrixZeroerTests;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE47B2101ED103C1008470F0 /* ViewController.swift in Sources */,
+				DE73D4371ED1309A006FFE1D /* Cell.swift in Sources */,
 				DE47B20E1ED103C1008470F0 /* AppDelegate.swift in Sources */,
 				DEC575F01ED110270033564A /* MatrixZeroer.swift in Sources */,
 			);
@@ -217,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE47B2231ED103C1008470F0 /* MatrixZeroerTests.swift in Sources */,
+				DE73D4391ED1341E006FFE1D /* CellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
