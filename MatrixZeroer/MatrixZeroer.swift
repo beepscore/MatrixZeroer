@@ -35,9 +35,23 @@ public class MatrixZeroer: NSObject {
         }
     }
 
-    /// returns array of cells corresponding to matrix elements whose value is 0
-    public class func getZeroes(rows: [[Int]]) -> [Cell] {
-        return []
+    /// returns array of cells corresponding to rows matrix all elements whose value is 0
+    // TODO: to increase efficiency, can add just the first zero in a row or in a column
+    public class func getAllZeroes(rows: [[Int]]) -> [Cell] {
+        var zeroes = [Cell]()
+
+        let rowsCount = rows.count
+        let columnsCount = rows[0].count
+
+        for rowNumber in 0..<rowsCount {
+            for columnNumber in 0..<columnsCount {
+                if rows[rowNumber][columnNumber] == 0 {
+                    let cell = Cell(row: rowNumber, column: columnNumber, value: 0)
+                    zeroes.append(cell)
+                }
+            }
+        }
+        return zeroes
     }
 
 }

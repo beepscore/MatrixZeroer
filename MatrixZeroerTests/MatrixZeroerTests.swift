@@ -46,4 +46,20 @@ class MatrixZeroerTests: XCTestCase {
 
         XCTAssertEqual(rows.description, "[[6, 0, 0], [5, 0, 0]]")
     }
+
+    func testGetAllZeroes() {
+
+        let rows = [[1, 0, 1], [0, 1, 1]]
+        XCTAssertEqual(rows.description, "[[1, 0, 1], [0, 1, 1]]")
+
+        // call method under test
+        let actual = MatrixZeroer.getAllZeroes(rows: rows)
+
+        XCTAssertEqual(actual.count, 2)
+
+        let expectedDescription = "[(row: 0, column: 1, value: 0), (row: 1, column: 0, value: 0)]"
+
+        XCTAssertEqual(actual.description, expectedDescription)
+    }
+
 }
