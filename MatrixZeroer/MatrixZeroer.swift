@@ -34,4 +34,10 @@ public class MatrixZeroer: NSObject {
             rows[rowNumber][columnNumber] = 0
         }
     }
+
+    /// returns array of cells corresponding to matrix elements whose value is 0
+    public class func getZeroes(rows: [[Int]]) -> [Cell] {
+        return []
+    }
+
 }
