@@ -100,9 +100,9 @@
 		DE47B2211ED103C1008470F0 /* MatrixZeroerTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE73D4381ED1341E006FFE1D /* CellTests.swift */,
 				DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */,
 				DE47B2241ED103C1008470F0 /* Info.plist */,
-				DE73D4381ED1341E006FFE1D /* CellTests.swift */,
 			);
 			path = MatrixZeroerTests;
 			sourceTree = "<group>";
