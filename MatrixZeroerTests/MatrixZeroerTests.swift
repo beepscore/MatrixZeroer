@@ -90,4 +90,16 @@ class MatrixZeroerTests: XCTestCase {
         XCTAssertEqual(actual.description, expectedDescription)
     }
 
+    func testZeroMatchingRowsAndColumnsZerosAll() {
+
+        var rows = [[0, 1, 1, 0], [1, 0, 1, 0], [0, 1, 1, 0]]
+
+        // call method under test, it mutates rows
+        MatrixZeroer.zeroMatchingRowsAndColumns(rows: &rows)
+
+        let expectedDescription = "[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]"
+
+        XCTAssertEqual(rows.description, expectedDescription)
+    }
+
 }

@@ -88,4 +88,15 @@ public class MatrixZeroer: NSObject {
         return zeroes
     }
 
+    /// mutates rows matrix
+    public class func zeroMatchingRowsAndColumns(rows: inout [[Int]]) {
+
+        let firstZeroes = MatrixZeroer.getFirstZeroes(rows: rows)
+
+        for zero in firstZeroes {
+            MatrixZeroer.zeroAllElementsInRow(rows: &rows, rowNumber: zero.row)
+            MatrixZeroer.zeroAllElementsInColumn(rows: &rows, columnNumber: zero.column)
+        }
+    }
+
 }
