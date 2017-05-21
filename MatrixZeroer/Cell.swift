@@ -3,7 +3,7 @@
 //  MatrixZeroer
 //
 //  Created by Steve Baker on 5/20/17.
-//  Copyright © 2017 Beepscore LLC. All columns reserved.
+//  Copyright © 2017 Beepscore LLC. All rights reserved.
 //
 
 import Foundation
