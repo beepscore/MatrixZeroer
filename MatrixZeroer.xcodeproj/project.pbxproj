@@ -15,6 +15,11 @@
 		DE47B2231ED103C1008470F0 /* MatrixZeroerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */; };
 		DE73D4371ED1309A006FFE1D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73D4361ED1309A006FFE1D /* Cell.swift */; };
 		DE73D4391ED1341E006FFE1D /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73D4381ED1341E006FFE1D /* CellTests.swift */; };
+		DE8D88651ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */; };
+		DE8D886C1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D886B1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift */; };
+		DE8D886E1ED2B18C0095830E /* MatrixZeroerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8D885E1ED2B18C0095830E /* MatrixZeroerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE8D88711ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */; };
+		DE8D88721ED2B18C0095830E /* MatrixZeroerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEC575F01ED110270033564A /* MatrixZeroer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC575EF1ED110270033564A /* MatrixZeroer.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +31,42 @@
 			remoteGlobalIDString = DE47B2091ED103C1008470F0;
 			remoteInfo = MatrixZeroer;
 		};
+		DE8D88661ED2B18C0095830E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE47B2021ED103C1008470F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8D885B1ED2B18C0095830E;
+			remoteInfo = MatrixZeroerFramework;
+		};
+		DE8D88681ED2B18C0095830E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE47B2021ED103C1008470F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE47B2091ED103C1008470F0;
+			remoteInfo = MatrixZeroer;
+		};
+		DE8D886F1ED2B18C0095830E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE47B2021ED103C1008470F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8D885B1ED2B18C0095830E;
+			remoteInfo = MatrixZeroerFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE8D88781ED2B18C0095830E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE8D88721ED2B18C0095830E /* MatrixZeroerFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DE47B20A1ED103C1008470F0 /* MatrixZeroer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixZeroer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +81,12 @@
 		DE47B2241ED103C1008470F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE73D4361ED1309A006FFE1D /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		DE73D4381ED1341E006FFE1D /* CellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
+		DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MatrixZeroerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8D885E1ED2B18C0095830E /* MatrixZeroerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixZeroerFramework.h; sourceTree = "<group>"; };
+		DE8D885F1ED2B18C0095830E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8D88641ED2B18C0095830E /* MatrixZeroerFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixZeroerFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8D886B1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixZeroerFrameworkTests.swift; sourceTree = "<group>"; };
+		DE8D886D1ED2B18C0095830E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEC575EE1ED109BC0033564A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DEC575EF1ED110270033564A /* MatrixZeroer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixZeroer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8D88711ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +104,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8D88581ED2B18C0095830E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8D88611ED2B18C0095830E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8D88651ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +131,8 @@
 				DEC575EE1ED109BC0033564A /* README.md */,
 				DE47B20C1ED103C1008470F0 /* MatrixZeroer */,
 				DE47B2211ED103C1008470F0 /* MatrixZeroerTests */,
+				DE8D885D1ED2B18C0095830E /* MatrixZeroerFramework */,
+				DE8D886A1ED2B18C0095830E /* MatrixZeroerFrameworkTests */,
 				DE47B20B1ED103C1008470F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +142,8 @@
 			children = (
 				DE47B20A1ED103C1008470F0 /* MatrixZeroer.app */,
 				DE47B21E1ED103C1008470F0 /* MatrixZeroerTests.xctest */,
+				DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */,
+				DE8D88641ED2B18C0095830E /* MatrixZeroerFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +173,36 @@
 			path = MatrixZeroerTests;
 			sourceTree = "<group>";
 		};
+		DE8D885D1ED2B18C0095830E /* MatrixZeroerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D885E1ED2B18C0095830E /* MatrixZeroerFramework.h */,
+				DE8D885F1ED2B18C0095830E /* Info.plist */,
+			);
+			path = MatrixZeroerFramework;
+			sourceTree = "<group>";
+		};
+		DE8D886A1ED2B18C0095830E /* MatrixZeroerFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8D886B1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift */,
+				DE8D886D1ED2B18C0095830E /* Info.plist */,
+			);
+			path = MatrixZeroerFrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DE8D88591ED2B18C0095830E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8D886E1ED2B18C0095830E /* MatrixZeroerFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DE47B2091ED103C1008470F0 /* MatrixZeroer */ = {
@@ -117,10 +212,12 @@
 				DE47B2061ED103C1008470F0 /* Sources */,
 				DE47B2071ED103C1008470F0 /* Frameworks */,
 				DE47B2081ED103C1008470F0 /* Resources */,
+				DE8D88781ED2B18C0095830E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DE8D88701ED2B18C0095830E /* PBXTargetDependency */,
 			);
 			name = MatrixZeroer;
 			productName = MatrixZeroer;
@@ -145,6 +242,43 @@
 			productReference = DE47B21E1ED103C1008470F0 /* MatrixZeroerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8D88771ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFramework" */;
+			buildPhases = (
+				DE8D88571ED2B18C0095830E /* Sources */,
+				DE8D88581ED2B18C0095830E /* Frameworks */,
+				DE8D88591ED2B18C0095830E /* Headers */,
+				DE8D885A1ED2B18C0095830E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixZeroerFramework;
+			productName = MatrixZeroerFramework;
+			productReference = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE8D88631ED2B18C0095830E /* MatrixZeroerFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8D88791ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFrameworkTests" */;
+			buildPhases = (
+				DE8D88601ED2B18C0095830E /* Sources */,
+				DE8D88611ED2B18C0095830E /* Frameworks */,
+				DE8D88621ED2B18C0095830E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8D88671ED2B18C0095830E /* PBXTargetDependency */,
+				DE8D88691ED2B18C0095830E /* PBXTargetDependency */,
+			);
+			name = MatrixZeroerFrameworkTests;
+			productName = MatrixZeroerFrameworkTests;
+			productReference = DE8D88641ED2B18C0095830E /* MatrixZeroerFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +295,17 @@
 						ProvisioningStyle = Automatic;
 					};
 					DE47B21D1ED103C1008470F0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J2LXK9FK3W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE47B2091ED103C1008470F0;
+					};
+					DE8D885B1ED2B18C0095830E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J2LXK9FK3W;
+						ProvisioningStyle = Automatic;
+					};
+					DE8D88631ED2B18C0095830E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = J2LXK9FK3W;
 						ProvisioningStyle = Automatic;
@@ -183,6 +328,8 @@
 			targets = (
 				DE47B2091ED103C1008470F0 /* MatrixZeroer */,
 				DE47B21D1ED103C1008470F0 /* MatrixZeroerTests */,
+				DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */,
+				DE8D88631ED2B18C0095830E /* MatrixZeroerFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +346,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DE47B21C1ED103C1008470F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8D885A1ED2B18C0095830E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8D88621ED2B18C0095830E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,6 +389,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE8D88571ED2B18C0095830E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8D88601ED2B18C0095830E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8D886C1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -235,6 +411,21 @@
 			isa = PBXTargetDependency;
 			target = DE47B2091ED103C1008470F0 /* MatrixZeroer */;
 			targetProxy = DE47B21F1ED103C1008470F0 /* PBXContainerItemProxy */;
+		};
+		DE8D88671ED2B18C0095830E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */;
+			targetProxy = DE8D88661ED2B18C0095830E /* PBXContainerItemProxy */;
+		};
+		DE8D88691ED2B18C0095830E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE47B2091ED103C1008470F0 /* MatrixZeroer */;
+			targetProxy = DE8D88681ED2B18C0095830E /* PBXContainerItemProxy */;
+		};
+		DE8D88701ED2B18C0095830E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */;
+			targetProxy = DE8D886F1ED2B18C0095830E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,6 +600,78 @@
 			};
 			name = Release;
 		};
+		DE8D88731ED2B18C0095830E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MatrixZeroerFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE8D88741ED2B18C0095830E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MatrixZeroerFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE8D88751ED2B18C0095830E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = MatrixZeroerFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixZeroer.app/MatrixZeroer";
+			};
+			name = Debug;
+		};
+		DE8D88761ED2B18C0095830E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J2LXK9FK3W;
+				INFOPLIST_FILE = MatrixZeroerFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixZeroer.app/MatrixZeroer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,6 +701,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		DE8D88771ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8D88731ED2B18C0095830E /* Debug */,
+				DE8D88741ED2B18C0095830E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE8D88791ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8D88751ED2B18C0095830E /* Debug */,
+				DE8D88761ED2B18C0095830E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
