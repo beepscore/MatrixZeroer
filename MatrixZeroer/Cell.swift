@@ -21,9 +21,16 @@ public class Cell: NSObject {
         self.value = value
     }
 
-    // hashValue does not have to be unique
-    override public var hashValue: Int {
-        return (1024 * row) + column
+    /// override isEqual enables comparing cells via isEqual, XCTAssertEqual and ==
+    /// so it is more general than simply defining func '==' for 2 Cell
+    override public func isEqual(_ x: Any?) -> Bool {
+        guard let x = x as? Cell else {
+            return false
+        }
+        let rowEqual = row == x.row
+        let columnEqual = column == x.column
+        let valueEqual = value == x.value
+        return rowEqual && columnEqual && valueEqual
     }
 
     /// computed property
@@ -31,17 +38,4 @@ public class Cell: NSObject {
     override public var description: String {
         return "(row: \(row), column: \(column), value: \(value))"
     }
-
-}
-
-/// implement Equatable, outside of class Cell
-/// - Parameters:
-///   - lhs: a Cell
-///   - rhs: a Cell
-/// - Returns: true if all properties are equal
-public func == (lhs: Cell, rhs: Cell) -> Bool {
-    let valueEqual = lhs.value == rhs.value
-    let rowEqual = lhs.row == rhs.row
-    let columnEqual = lhs.column == rhs.column
-    return valueEqual && rowEqual && columnEqual
 }

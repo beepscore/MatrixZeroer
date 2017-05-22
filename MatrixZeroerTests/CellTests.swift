@@ -28,18 +28,21 @@ class CellTests: XCTestCase {
         let cell0 = Cell(row: 2, column: 5, value: 8)
         let cell1 = Cell(row: 2, column: 5, value: 8)
         // when comparing cells, need to use == operator, not XCTAssertEqual
+        XCTAssertEqual(cell1, cell0)
         XCTAssertTrue(cell1 == cell0)
     }
 
     func testCellNotEqualColumn() {
         let cell0 = Cell(row: 2, column: 5, value: 8)
         let cell1 = Cell(row: 2, column: 4, value: 8)
+        XCTAssertNotEqual(cell1, cell0)
         XCTAssertFalse(cell1 == cell0)
     }
 
     func testCellNotEqualValue() {
         let cell0 = Cell(row: 2, column: 5, value: 8)
         let cell1 = Cell(row: 2, column: 5, value: 1)
+        XCTAssertNotEqual(cell1, cell0)
         XCTAssertFalse(cell1 == cell0)
     }
 
