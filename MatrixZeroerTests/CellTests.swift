@@ -27,7 +27,6 @@ class CellTests: XCTestCase {
     func testCellEqual() {
         let cell0 = Cell(row: 2, column: 5, value: 8)
         let cell1 = Cell(row: 2, column: 5, value: 8)
-        // when comparing cells, need to use == operator, not XCTAssertEqual
         XCTAssertEqual(cell1, cell0)
         XCTAssertTrue(cell1 == cell0)
     }
