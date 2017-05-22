@@ -13,7 +13,6 @@
 		DE7603421ED2BB8000C5E929 /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7603411ED2BB8000C5E929 /* CellTests.swift */; };
 		DE7603441ED2BB9400C5E929 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7603431ED2BB9400C5E929 /* Cell.swift */; };
 		DE7603461ED2BBA000C5E929 /* MatrixZeroer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7603451ED2BBA000C5E929 /* MatrixZeroer.swift */; };
-		DE7603481ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7603471ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		DE7603411ED2BB8000C5E929 /* CellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
 		DE7603431ED2BB9400C5E929 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		DE7603451ED2BBA000C5E929 /* MatrixZeroer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixZeroer.swift; sourceTree = "<group>"; };
-		DE7603471ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MatrixZeroerTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		DEC575EE1ED109BC0033564A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -94,7 +92,6 @@
 			children = (
 				DE7603411ED2BB8000C5E929 /* CellTests.swift */,
 				DE7603361ED2BA6100C5E929 /* Info.plist */,
-				DE7603471ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h */,
 				DE76033F1ED2BB6000C5E929 /* MatrixZeroerTests.swift */,
 			);
 			path = MatrixZeroerTests;
@@ -108,7 +105,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7603371ED2BA6100C5E929 /* MatrixZeroer.h in Headers */,
-				DE7603481ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +389,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MatrixZeroerTests/MatrixZeroerTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -409,7 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "MatrixZeroerTests/MatrixZeroerTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -433,6 +429,7 @@
 				DE7603391ED2BA6100C5E929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE76033D1ED2BA6100C5E929 /* Build configuration list for PBXNativeTarget "MatrixZeroerTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +438,7 @@
 				DE76033B1ED2BA6100C5E929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
