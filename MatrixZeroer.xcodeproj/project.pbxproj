@@ -7,118 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE47B20E1ED103C1008470F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47B20D1ED103C1008470F0 /* AppDelegate.swift */; };
-		DE47B2101ED103C1008470F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47B20F1ED103C1008470F0 /* ViewController.swift */; };
-		DE47B2131ED103C1008470F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE47B2111ED103C1008470F0 /* Main.storyboard */; };
-		DE47B2151ED103C1008470F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE47B2141ED103C1008470F0 /* Assets.xcassets */; };
-		DE47B2181ED103C1008470F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */; };
-		DE47B2231ED103C1008470F0 /* MatrixZeroerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */; };
-		DE73D4371ED1309A006FFE1D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73D4361ED1309A006FFE1D /* Cell.swift */; };
-		DE73D4391ED1341E006FFE1D /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE73D4381ED1341E006FFE1D /* CellTests.swift */; };
-		DE8D88651ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */; };
-		DE8D886C1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D886B1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift */; };
-		DE8D886E1ED2B18C0095830E /* MatrixZeroerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8D885E1ED2B18C0095830E /* MatrixZeroerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE8D88711ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */; };
-		DE8D88721ED2B18C0095830E /* MatrixZeroerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DEC575F01ED110270033564A /* MatrixZeroer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC575EF1ED110270033564A /* MatrixZeroer.swift */; };
+		DE7603301ED2BA6100C5E929 /* MatrixZeroer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7603271ED2BA6100C5E929 /* MatrixZeroer.framework */; };
+		DE7603371ED2BA6100C5E929 /* MatrixZeroer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7603291ED2BA6100C5E929 /* MatrixZeroer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE7603401ED2BB6000C5E929 /* MatrixZeroerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE76033F1ED2BB6000C5E929 /* MatrixZeroerTests.swift */; };
+		DE7603421ED2BB8000C5E929 /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7603411ED2BB8000C5E929 /* CellTests.swift */; };
+		DE7603441ED2BB9400C5E929 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7603431ED2BB9400C5E929 /* Cell.swift */; };
+		DE7603461ED2BBA000C5E929 /* MatrixZeroer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7603451ED2BBA000C5E929 /* MatrixZeroer.swift */; };
+		DE7603481ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = DE7603471ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DE47B21F1ED103C1008470F0 /* PBXContainerItemProxy */ = {
+		DE7603311ED2BA6100C5E929 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DE47B2021ED103C1008470F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE47B2091ED103C1008470F0;
+			remoteGlobalIDString = DE7603261ED2BA6100C5E929;
 			remoteInfo = MatrixZeroer;
-		};
-		DE8D88661ED2B18C0095830E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE47B2021ED103C1008470F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE8D885B1ED2B18C0095830E;
-			remoteInfo = MatrixZeroerFramework;
-		};
-		DE8D88681ED2B18C0095830E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE47B2021ED103C1008470F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE47B2091ED103C1008470F0;
-			remoteInfo = MatrixZeroer;
-		};
-		DE8D886F1ED2B18C0095830E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE47B2021ED103C1008470F0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE8D885B1ED2B18C0095830E;
-			remoteInfo = MatrixZeroerFramework;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		DE8D88781ED2B18C0095830E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DE8D88721ED2B18C0095830E /* MatrixZeroerFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		DE47B20A1ED103C1008470F0 /* MatrixZeroer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixZeroer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE47B20D1ED103C1008470F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE47B20F1ED103C1008470F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE47B2121ED103C1008470F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE47B2141ED103C1008470F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE47B2171ED103C1008470F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE47B2191ED103C1008470F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE47B21E1ED103C1008470F0 /* MatrixZeroerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixZeroerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixZeroerTests.swift; sourceTree = "<group>"; };
-		DE47B2241ED103C1008470F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE73D4361ED1309A006FFE1D /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		DE73D4381ED1341E006FFE1D /* CellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
-		DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MatrixZeroerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8D885E1ED2B18C0095830E /* MatrixZeroerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixZeroerFramework.h; sourceTree = "<group>"; };
-		DE8D885F1ED2B18C0095830E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE8D88641ED2B18C0095830E /* MatrixZeroerFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixZeroerFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8D886B1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixZeroerFrameworkTests.swift; sourceTree = "<group>"; };
-		DE8D886D1ED2B18C0095830E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7603271ED2BA6100C5E929 /* MatrixZeroer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MatrixZeroer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7603291ED2BA6100C5E929 /* MatrixZeroer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixZeroer.h; sourceTree = "<group>"; };
+		DE76032A1ED2BA6100C5E929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE76032F1ED2BA6100C5E929 /* MatrixZeroerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixZeroerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7603361ED2BA6100C5E929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE76033F1ED2BB6000C5E929 /* MatrixZeroerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixZeroerTests.swift; sourceTree = "<group>"; };
+		DE7603411ED2BB8000C5E929 /* CellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
+		DE7603431ED2BB9400C5E929 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		DE7603451ED2BBA000C5E929 /* MatrixZeroer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixZeroer.swift; sourceTree = "<group>"; };
+		DE7603471ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MatrixZeroerTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		DEC575EE1ED109BC0033564A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		DEC575EF1ED110270033564A /* MatrixZeroer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixZeroer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE47B2071ED103C1008470F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE8D88711ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE47B21B1ED103C1008470F0 /* Frameworks */ = {
+		DE7603231ED2BA6100C5E929 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE8D88581ED2B18C0095830E /* Frameworks */ = {
+		DE76032C1ED2BA6100C5E929 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE8D88611ED2B18C0095830E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE8D88651ED2B18C0095830E /* MatrixZeroerFramework.framework in Frameworks */,
+				DE7603301ED2BA6100C5E929 /* MatrixZeroer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,10 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				DEC575EE1ED109BC0033564A /* README.md */,
-				DE47B20C1ED103C1008470F0 /* MatrixZeroer */,
-				DE47B2211ED103C1008470F0 /* MatrixZeroerTests */,
-				DE8D885D1ED2B18C0095830E /* MatrixZeroerFramework */,
-				DE8D886A1ED2B18C0095830E /* MatrixZeroerFrameworkTests */,
+				DE7603281ED2BA6100C5E929 /* MatrixZeroer */,
+				DE7603331ED2BA6100C5E929 /* MatrixZeroerTests */,
 				DE47B20B1ED103C1008470F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,143 +72,83 @@
 		DE47B20B1ED103C1008470F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE47B20A1ED103C1008470F0 /* MatrixZeroer.app */,
-				DE47B21E1ED103C1008470F0 /* MatrixZeroerTests.xctest */,
-				DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */,
-				DE8D88641ED2B18C0095830E /* MatrixZeroerFrameworkTests.xctest */,
+				DE7603271ED2BA6100C5E929 /* MatrixZeroer.framework */,
+				DE76032F1ED2BA6100C5E929 /* MatrixZeroerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE47B20C1ED103C1008470F0 /* MatrixZeroer */ = {
+		DE7603281ED2BA6100C5E929 /* MatrixZeroer */ = {
 			isa = PBXGroup;
 			children = (
-				DE47B20D1ED103C1008470F0 /* AppDelegate.swift */,
-				DE47B2141ED103C1008470F0 /* Assets.xcassets */,
-				DE73D4361ED1309A006FFE1D /* Cell.swift */,
-				DE47B2191ED103C1008470F0 /* Info.plist */,
-				DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */,
-				DE47B2111ED103C1008470F0 /* Main.storyboard */,
-				DEC575EF1ED110270033564A /* MatrixZeroer.swift */,
-				DE47B20F1ED103C1008470F0 /* ViewController.swift */,
+				DE7603431ED2BB9400C5E929 /* Cell.swift */,
+				DE7603291ED2BA6100C5E929 /* MatrixZeroer.h */,
+				DE7603451ED2BBA000C5E929 /* MatrixZeroer.swift */,
+				DE76032A1ED2BA6100C5E929 /* Info.plist */,
 			);
 			path = MatrixZeroer;
 			sourceTree = "<group>";
 		};
-		DE47B2211ED103C1008470F0 /* MatrixZeroerTests */ = {
+		DE7603331ED2BA6100C5E929 /* MatrixZeroerTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE73D4381ED1341E006FFE1D /* CellTests.swift */,
-				DE47B2221ED103C1008470F0 /* MatrixZeroerTests.swift */,
-				DE47B2241ED103C1008470F0 /* Info.plist */,
+				DE7603411ED2BB8000C5E929 /* CellTests.swift */,
+				DE7603361ED2BA6100C5E929 /* Info.plist */,
+				DE7603471ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h */,
+				DE76033F1ED2BB6000C5E929 /* MatrixZeroerTests.swift */,
 			);
 			path = MatrixZeroerTests;
-			sourceTree = "<group>";
-		};
-		DE8D885D1ED2B18C0095830E /* MatrixZeroerFramework */ = {
-			isa = PBXGroup;
-			children = (
-				DE8D885E1ED2B18C0095830E /* MatrixZeroerFramework.h */,
-				DE8D885F1ED2B18C0095830E /* Info.plist */,
-			);
-			path = MatrixZeroerFramework;
-			sourceTree = "<group>";
-		};
-		DE8D886A1ED2B18C0095830E /* MatrixZeroerFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE8D886B1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift */,
-				DE8D886D1ED2B18C0095830E /* Info.plist */,
-			);
-			path = MatrixZeroerFrameworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DE8D88591ED2B18C0095830E /* Headers */ = {
+		DE7603241ED2BA6100C5E929 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8D886E1ED2B18C0095830E /* MatrixZeroerFramework.h in Headers */,
+				DE7603371ED2BA6100C5E929 /* MatrixZeroer.h in Headers */,
+				DE7603481ED2BC6400C5E929 /* MatrixZeroerTests-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DE47B2091ED103C1008470F0 /* MatrixZeroer */ = {
+		DE7603261ED2BA6100C5E929 /* MatrixZeroer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE47B2271ED103C1008470F0 /* Build configuration list for PBXNativeTarget "MatrixZeroer" */;
+			buildConfigurationList = DE76033C1ED2BA6100C5E929 /* Build configuration list for PBXNativeTarget "MatrixZeroer" */;
 			buildPhases = (
-				DE47B2061ED103C1008470F0 /* Sources */,
-				DE47B2071ED103C1008470F0 /* Frameworks */,
-				DE47B2081ED103C1008470F0 /* Resources */,
-				DE8D88781ED2B18C0095830E /* Embed Frameworks */,
+				DE7603221ED2BA6100C5E929 /* Sources */,
+				DE7603231ED2BA6100C5E929 /* Frameworks */,
+				DE7603241ED2BA6100C5E929 /* Headers */,
+				DE7603251ED2BA6100C5E929 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE8D88701ED2B18C0095830E /* PBXTargetDependency */,
 			);
 			name = MatrixZeroer;
 			productName = MatrixZeroer;
-			productReference = DE47B20A1ED103C1008470F0 /* MatrixZeroer.app */;
-			productType = "com.apple.product-type.application";
+			productReference = DE7603271ED2BA6100C5E929 /* MatrixZeroer.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		DE47B21D1ED103C1008470F0 /* MatrixZeroerTests */ = {
+		DE76032E1ED2BA6100C5E929 /* MatrixZeroerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE47B22A1ED103C1008470F0 /* Build configuration list for PBXNativeTarget "MatrixZeroerTests" */;
+			buildConfigurationList = DE76033D1ED2BA6100C5E929 /* Build configuration list for PBXNativeTarget "MatrixZeroerTests" */;
 			buildPhases = (
-				DE47B21A1ED103C1008470F0 /* Sources */,
-				DE47B21B1ED103C1008470F0 /* Frameworks */,
-				DE47B21C1ED103C1008470F0 /* Resources */,
+				DE76032B1ED2BA6100C5E929 /* Sources */,
+				DE76032C1ED2BA6100C5E929 /* Frameworks */,
+				DE76032D1ED2BA6100C5E929 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE47B2201ED103C1008470F0 /* PBXTargetDependency */,
+				DE7603321ED2BA6100C5E929 /* PBXTargetDependency */,
 			);
 			name = MatrixZeroerTests;
 			productName = MatrixZeroerTests;
-			productReference = DE47B21E1ED103C1008470F0 /* MatrixZeroerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE8D88771ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFramework" */;
-			buildPhases = (
-				DE8D88571ED2B18C0095830E /* Sources */,
-				DE8D88581ED2B18C0095830E /* Frameworks */,
-				DE8D88591ED2B18C0095830E /* Headers */,
-				DE8D885A1ED2B18C0095830E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MatrixZeroerFramework;
-			productName = MatrixZeroerFramework;
-			productReference = DE8D885C1ED2B18C0095830E /* MatrixZeroerFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DE8D88631ED2B18C0095830E /* MatrixZeroerFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE8D88791ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFrameworkTests" */;
-			buildPhases = (
-				DE8D88601ED2B18C0095830E /* Sources */,
-				DE8D88611ED2B18C0095830E /* Frameworks */,
-				DE8D88621ED2B18C0095830E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE8D88671ED2B18C0095830E /* PBXTargetDependency */,
-				DE8D88691ED2B18C0095830E /* PBXTargetDependency */,
-			);
-			name = MatrixZeroerFrameworkTests;
-			productName = MatrixZeroerFrameworkTests;
-			productReference = DE8D88641ED2B18C0095830E /* MatrixZeroerFrameworkTests.xctest */;
+			productReference = DE76032F1ED2BA6100C5E929 /* MatrixZeroerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -289,27 +161,17 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Beepscore LLC";
 				TargetAttributes = {
-					DE47B2091ED103C1008470F0 = {
+					DE7603261ED2BA6100C5E929 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = J2LXK9FK3W;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
-					DE47B21D1ED103C1008470F0 = {
+					DE76032E1ED2BA6100C5E929 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = J2LXK9FK3W;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DE47B2091ED103C1008470F0;
-					};
-					DE8D885B1ED2B18C0095830E = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = J2LXK9FK3W;
-						ProvisioningStyle = Automatic;
-					};
-					DE8D88631ED2B18C0095830E = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = J2LXK9FK3W;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DE47B2091ED103C1008470F0;
 					};
 				};
 			};
@@ -326,40 +188,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE47B2091ED103C1008470F0 /* MatrixZeroer */,
-				DE47B21D1ED103C1008470F0 /* MatrixZeroerTests */,
-				DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */,
-				DE8D88631ED2B18C0095830E /* MatrixZeroerFrameworkTests */,
+				DE7603261ED2BA6100C5E929 /* MatrixZeroer */,
+				DE76032E1ED2BA6100C5E929 /* MatrixZeroerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE47B2081ED103C1008470F0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE47B2181ED103C1008470F0 /* LaunchScreen.storyboard in Resources */,
-				DE47B2151ED103C1008470F0 /* Assets.xcassets in Resources */,
-				DE47B2131ED103C1008470F0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE47B21C1ED103C1008470F0 /* Resources */ = {
+		DE7603251ED2BA6100C5E929 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE8D885A1ED2B18C0095830E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE8D88621ED2B18C0095830E /* Resources */ = {
+		DE76032D1ED2BA6100C5E929 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,84 +212,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DE47B2061ED103C1008470F0 /* Sources */ = {
+		DE7603221ED2BA6100C5E929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE47B2101ED103C1008470F0 /* ViewController.swift in Sources */,
-				DE73D4371ED1309A006FFE1D /* Cell.swift in Sources */,
-				DE47B20E1ED103C1008470F0 /* AppDelegate.swift in Sources */,
-				DEC575F01ED110270033564A /* MatrixZeroer.swift in Sources */,
+				DE7603441ED2BB9400C5E929 /* Cell.swift in Sources */,
+				DE7603461ED2BBA000C5E929 /* MatrixZeroer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE47B21A1ED103C1008470F0 /* Sources */ = {
+		DE76032B1ED2BA6100C5E929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE47B2231ED103C1008470F0 /* MatrixZeroerTests.swift in Sources */,
-				DE73D4391ED1341E006FFE1D /* CellTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE8D88571ED2B18C0095830E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE8D88601ED2B18C0095830E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE8D886C1ED2B18C0095830E /* MatrixZeroerFrameworkTests.swift in Sources */,
+				DE7603401ED2BB6000C5E929 /* MatrixZeroerTests.swift in Sources */,
+				DE7603421ED2BB8000C5E929 /* CellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DE47B2201ED103C1008470F0 /* PBXTargetDependency */ = {
+		DE7603321ED2BA6100C5E929 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE47B2091ED103C1008470F0 /* MatrixZeroer */;
-			targetProxy = DE47B21F1ED103C1008470F0 /* PBXContainerItemProxy */;
-		};
-		DE8D88671ED2B18C0095830E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */;
-			targetProxy = DE8D88661ED2B18C0095830E /* PBXContainerItemProxy */;
-		};
-		DE8D88691ED2B18C0095830E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE47B2091ED103C1008470F0 /* MatrixZeroer */;
-			targetProxy = DE8D88681ED2B18C0095830E /* PBXContainerItemProxy */;
-		};
-		DE8D88701ED2B18C0095830E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE8D885B1ED2B18C0095830E /* MatrixZeroerFramework */;
-			targetProxy = DE8D886F1ED2B18C0095830E /* PBXContainerItemProxy */;
+			target = DE7603261ED2BA6100C5E929 /* MatrixZeroer */;
+			targetProxy = DE7603311ED2BA6100C5E929 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DE47B2111ED103C1008470F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE47B2121ED103C1008470F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DE47B2161ED103C1008470F0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE47B2171ED103C1008470F0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DE47B2251ED103C1008470F0 /* Debug */ = {
@@ -544,65 +336,10 @@
 			};
 			name = Release;
 		};
-		DE47B2281ED103C1008470F0 /* Debug */ = {
+		DE7603381ED2BA6100C5E929 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J2LXK9FK3W;
-				INFOPLIST_FILE = MatrixZeroer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		DE47B2291ED103C1008470F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J2LXK9FK3W;
-				INFOPLIST_FILE = MatrixZeroer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		DE47B22B1ED103C1008470F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J2LXK9FK3W;
-				INFOPLIST_FILE = MatrixZeroerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixZeroer.app/MatrixZeroer";
-			};
-			name = Debug;
-		};
-		DE47B22C1ED103C1008470F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J2LXK9FK3W;
-				INFOPLIST_FILE = MatrixZeroerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixZeroer.app/MatrixZeroer";
-			};
-			name = Release;
-		};
-		DE8D88731ED2B18C0095830E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -610,21 +347,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MatrixZeroerFramework/Info.plist;
+				INFOPLIST_FILE = MatrixZeroer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DE8D88741ED2B18C0095830E /* Release */ = {
+		DE7603391ED2BA6100C5E929 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -632,10 +371,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MatrixZeroerFramework/Info.plist;
+				INFOPLIST_FILE = MatrixZeroer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -644,31 +383,34 @@
 			};
 			name = Release;
 		};
-		DE8D88751ED2B18C0095830E /* Debug */ = {
+		DE76033A1ED2BA6100C5E929 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J2LXK9FK3W;
-				INFOPLIST_FILE = MatrixZeroerFrameworkTests/Info.plist;
+				INFOPLIST_FILE = MatrixZeroerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MatrixZeroerTests/MatrixZeroerTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixZeroer.app/MatrixZeroer";
 			};
 			name = Debug;
 		};
-		DE8D88761ED2B18C0095830E /* Release */ = {
+		DE76033B1ED2BA6100C5E929 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J2LXK9FK3W;
-				INFOPLIST_FILE = MatrixZeroerFrameworkTests/Info.plist;
+				INFOPLIST_FILE = MatrixZeroerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerFrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.MatrixZeroerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MatrixZeroerTests/MatrixZeroerTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixZeroer.app/MatrixZeroer";
 			};
 			name = Release;
 		};
@@ -684,37 +426,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE47B2271ED103C1008470F0 /* Build configuration list for PBXNativeTarget "MatrixZeroer" */ = {
+		DE76033C1ED2BA6100C5E929 /* Build configuration list for PBXNativeTarget "MatrixZeroer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE47B2281ED103C1008470F0 /* Debug */,
-				DE47B2291ED103C1008470F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE47B22A1ED103C1008470F0 /* Build configuration list for PBXNativeTarget "MatrixZeroerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE47B22B1ED103C1008470F0 /* Debug */,
-				DE47B22C1ED103C1008470F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE8D88771ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE8D88731ED2B18C0095830E /* Debug */,
-				DE8D88741ED2B18C0095830E /* Release */,
+				DE7603381ED2BA6100C5E929 /* Debug */,
+				DE7603391ED2BA6100C5E929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DE8D88791ED2B18C0095830E /* Build configuration list for PBXNativeTarget "MatrixZeroerFrameworkTests" */ = {
+		DE76033D1ED2BA6100C5E929 /* Build configuration list for PBXNativeTarget "MatrixZeroerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE8D88751ED2B18C0095830E /* Debug */,
-				DE8D88761ED2B18C0095830E /* Release */,
+				DE76033A1ED2BA6100C5E929 /* Debug */,
+				DE76033B1ED2BA6100C5E929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
