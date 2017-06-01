@@ -8,14 +8,31 @@
 
 import UIKit
 
+/// MatrixZeroer operates on a matrix of n rows by m columns.
+/// The matrix "rows" is implemented as an array of arrays.
+/// Each row is an array of elements.
+/// e.g. row0 = [row0column0, row0column1, row0column2] == [6, 8, 10]
+/// The nested arrays can be treated like a 2d matrix.
+/// rows = [row0, row1] == [[6, 8, 10], [5, -3, 4]]
+/// Element type is Int, but the problem specifies every element is either 0 or 1.
 public class MatrixZeroer: NSObject {
 
-    // rows array contains rows.
-    // each row is an array of column elements e.g.
-    // row0 = [column0, column1, column2] == [6, 8, 10]
-    // The nested arrays can be treated like a 2d matrix.
-    // rows = [row0, row1] == [[6, 8, 10], [5, -3, 4]]
-    var rows = [[Int]]()
+    /// If an element in the original rows is 0, the method zeroes it's entire row and column.
+    /// Mutates rows matrix rather than creating a new one.
+    /// Example usage:
+    /// var rows = [[0, 1, 1, 0], [1, 0, 1, 0], [0, 1, 1, 0]]
+    /// MatrixZeroer.zeroMatchingRowsAndColumns(rows: &rows)
+    /// - Parameter rows: inout parameter.
+    ///   After method returns, rows has been mutated.
+    public class func zeroMatchingRowsAndColumns(rows: inout [[Int]]) {
+
+        let firstZeroes = MatrixZeroer.getFirstZeroes(rows: rows)
+
+        for zero in firstZeroes {
+            MatrixZeroer.zeroAllElementsInRow(rows: &rows, rowNumber: zero.row)
+            MatrixZeroer.zeroAllElementsInColumn(rows: &rows, columnNumber: zero.column)
+        }
+    }
 
     /// mutates rows matrix
     public class func zeroAllElementsInColumn(rows: inout [[Int]], columnNumber: Int) {
@@ -86,17 +103,6 @@ public class MatrixZeroer: NSObject {
             }
         }
         return zeroes
-    }
-
-    /// mutates rows matrix
-    public class func zeroMatchingRowsAndColumns(rows: inout [[Int]]) {
-
-        let firstZeroes = MatrixZeroer.getFirstZeroes(rows: rows)
-
-        for zero in firstZeroes {
-            MatrixZeroer.zeroAllElementsInRow(rows: &rows, rowNumber: zero.row)
-            MatrixZeroer.zeroAllElementsInColumn(rows: &rows, columnNumber: zero.column)
-        }
     }
 
 }
